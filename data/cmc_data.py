@@ -40,7 +40,7 @@ class CmcData:
                    f'\n\U0001f4c8Percent Change 7d: {percent_change_7d:.2f}%' \
                    f'\n{"-" * 20}' \
                    f'\n\U0001f4b9{chart_link}|Coinmarketcap' \
-                   f'\n\u23f1Time since launch: {round(time.time() - start_time) // 60} minutes'
+                   f'\n\u23f1Time since launch: {round(time.time() - start_time) // 86400} days'
         return response
 
 
